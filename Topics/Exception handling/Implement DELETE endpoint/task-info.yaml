@@ -1,0 +1,191 @@
+type: edu
+files:
+- name: src/task/Main.java
+  visible: false
+  text: |-
+    package task;
+
+    import org.springframework.boot.SpringApplication;
+    import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+    @SpringBootApplication
+    public class Main {
+        public static void main(String[] args) {
+            SpringApplication.run(Main.class, args);
+        }
+    }
+  learner_created: false
+- name: build.gradle
+  visible: false
+  text: |-
+    plugins {
+        id 'java'
+        id 'org.springframework.boot' version '2.3.1.RELEASE'
+        id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+    }
+
+    repositories {
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+    }
+
+    sourceSets.main.resources.srcDirs = ["resources"]
+
+    dependencies {
+        implementation 'org.springframework.boot:spring-boot-starter'
+        implementation 'org.springframework.boot:spring-boot-starter-actuator'
+        implementation 'org.springframework.boot:spring-boot-starter-web'
+    }
+  learner_created: false
+- name: src/task/Controller.java
+  visible: true
+  text: |
+    package task;
+
+    import org.springframework.http.*;
+    import org.springframework.web.bind.annotation.*;
+    import org.springframework.web.server.*;
+
+    import java.util.*;
+    import java.util.concurrent.*;
+
+    @RestController
+    public class Controller {
+        final Map<Long, String> users = new ConcurrentHashMap<>(Map.of(
+                2234L, "Kate",
+                234234234L, "Alice",
+                2134L, "Jessica",
+                3456L, "Olivia",
+                98684L, "Emma",
+                85L, "Liam",
+                8495L, "James",
+                48438L, "Henry"
+        ));
+
+        // add your code below this line
+
+    }
+  learner_created: false
+- name: resources/application.properties
+  visible: false
+  text: |-
+    server.port=28852
+    management.endpoints.web.exposure.include=*
+    management.endpoint.shutdown.enabled=true
+  learner_created: false
+- name: test/Tests.java
+  visible: false
+  text: |-
+    import org.hyperskill.hstest.dynamic.DynamicTest;
+    import org.hyperskill.hstest.dynamic.input.DynamicTesting;
+    import org.hyperskill.hstest.exception.outcomes.WrongAnswer;
+    import org.hyperskill.hstest.mocks.web.response.HttpResponse;
+    import org.hyperskill.hstest.stage.SpringTest;
+
+    import org.hyperskill.hstest.testcase.CheckResult;
+    import task.Main;
+
+    import static org.hyperskill.hstest.testcase.CheckResult.correct;
+
+
+    public class Tests extends SpringTest {
+
+        public Tests() {
+            super(Main.class);
+        }
+
+        static void throwIfIncorrectStatusCode(HttpResponse response, int status) {
+            if (response.getStatusCode() != status) {
+                throw new WrongAnswer(response.getRequest().getMethod() +
+                        " " + response.getRequest().getLocalUri() +
+                        " should respond with status code " + status +
+                        ", responded: " + response.getStatusCode() + "\n\n" +
+                        "Response body:\n" + response.getContent());
+            }
+        }
+
+        final int[] IDS = new int[]{2234, 234234234, 2134, 3456, 98684, 85, 8495, 48438};
+        final int[] INCORRECT_IDS = new int[]{-100, -99, -2, -1, 0, 1, 2, 99, 100, 999, 1000};
+
+        @DynamicTest
+        final DynamicTesting[] dt = new DynamicTesting[]{
+                () -> testDeleteParticipantsStatusCode(IDS[0], 204),
+                () -> testDeleteParticipantsStatusCode(IDS[0], 404),
+                () -> testDeleteParticipantsStatusCode(IDS[0], 404),
+                () -> testDeleteParticipantsStatusCode(IDS[1], 204),
+                () -> testDeleteParticipantsStatusCode(IDS[1], 404),
+                () -> testDeleteParticipantsStatusCode(IDS[2], 204),
+                () -> testDeleteParticipantsStatusCode(IDS[2], 404),
+                () -> testDeleteParticipantsStatusCode(IDS[3], 204),
+                () -> testDeleteParticipantsStatusCode(IDS[3], 404),
+                () -> testDeleteParticipantsStatusCode(IDS[4], 204),
+                () -> testDeleteParticipantsStatusCode(IDS[4], 404),
+                () -> testDeleteParticipantsStatusCode(IDS[5], 204),
+                () -> testDeleteParticipantsStatusCode(IDS[5], 404),
+                () -> testDeleteParticipantsStatusCode(IDS[6], 204),
+                () -> testDeleteParticipantsStatusCode(IDS[6], 404),
+                () -> testDeleteParticipantsStatusCode(IDS[7], 204),
+                () -> testDeleteParticipantsStatusCode(IDS[7], 404),
+                () -> testDeleteParticipantsStatusCode(IDS[7], 404),
+
+                () -> testDeleteParticipantsStatusCode(INCORRECT_IDS[0], 404),
+                () -> testDeleteParticipantsStatusCode(INCORRECT_IDS[1], 404),
+                () -> testDeleteParticipantsStatusCode(INCORRECT_IDS[2], 404),
+                () -> testDeleteParticipantsStatusCode(INCORRECT_IDS[3], 404),
+                () -> testDeleteParticipantsStatusCode(INCORRECT_IDS[4], 404),
+                () -> testDeleteParticipantsStatusCode(INCORRECT_IDS[5], 404),
+                () -> testDeleteParticipantsStatusCode(INCORRECT_IDS[6], 404),
+                () -> testDeleteParticipantsStatusCode(INCORRECT_IDS[7], 404),
+                () -> testDeleteParticipantsStatusCode(INCORRECT_IDS[8], 404),
+                () -> testDeleteParticipantsStatusCode(INCORRECT_IDS[9], 404),
+                () -> testDeleteParticipantsStatusCode(INCORRECT_IDS[10], 404),
+        };
+
+        CheckResult testDeleteParticipantsStatusCode(int id, int statusCode) {
+            HttpResponse response = delete("/users/" + id).send();
+
+            throwIfIncorrectStatusCode(response, statusCode);
+
+            return correct();
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15214#comment
+status: Failed
+feedback:
+  message: |-
+    Wrong answer in test #1
+
+    DELETE /users/2234 should respond with status code 204, responded: 200
+
+    Response body:
+    Kate
+
+    Please find below the output of your program during this failed test.
+
+    ---
+
+    .   ____          _            __ _ _
+     /\\ / ___&#39;_ __ _ _(_)_ __  __ _ \ \ \ \
+    ( ( )\___ | &#39;_ | &#39;_| | &#39;_ \/ _` | \ \ \ \
+     \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+      &#39;  |____| .__|_| |_|_| |_\__, | / / / /
+     =========|_|==============|___/=/_/_/_/
+     :: Spring Boot ::        (v2.3.1.RELEASE)
+
+    2021-12-23 23:20:42.554  INFO 13162 --- [    Test worker] task.Main                                : Starting Main on aglot with PID 13162 (started by aglot in /home/aglot/IdeaProjects/Recipes/Topics/Exception handling/Implement DELETE endpoint)
+    2021-12-23 23:20:42.562  INFO 13162 --- [    Test worker] task.Main                                : No active profile set, falling back to default profiles: default
+    2021-12-23 23:20:46.352  INFO 13162 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
+    2021-12-23 23:20:46.387  INFO 13162 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+    2021-12-23 23:20:46.390  INFO 13162 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+    2021-12-23 23:20:46.624  INFO 13162 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+    2021-12-23 23:20:46.625  INFO 13162 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3920 ms
+    2021-12-23 23:20:47.524  INFO 13162 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService &#39;applicationTaskExecutor&#39;
+    2021-12-23 23:20:48.495  INFO 13162 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path &#39;/actuator&#39;
+    2021-12-23 23:20:48.698  INFO 13162 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path &#39;&#39;
+    2021-12-23 23:20:48.748  INFO 13162 --- [    Test worker] task.Main                                : Started Main in 7.286 seconds (JVM running for 8.905)
+    2021-12-23 23:20:49.747  INFO 13162 --- [io-28852-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet &#39;dispatcherServlet&#39;
+    2021-12-23 23:20:49.753  INFO 13162 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet &#39;dispatcherServlet&#39;
+    2021-12-23 23:20:49.798  INFO 13162 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 44 ms
+  time: Thu, 23 Dec 2021 20:20:50 UTC
+record: -1

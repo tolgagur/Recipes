@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Throw new ResponseStatusException()
+- text: Throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Flight not found
+    for id =" + id)
+- text: Throw new ResponseStatusException(HttpStatus.BAD_REQUEST)
+- text: It's impossible
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/13277#comment
+status: Solved
+record: -1

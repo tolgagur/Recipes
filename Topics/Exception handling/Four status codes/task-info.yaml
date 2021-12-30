@@ -1,0 +1,151 @@
+type: edu
+files:
+- name: src/task/Main.java
+  visible: false
+  text: |-
+    package task;
+
+    import org.springframework.boot.SpringApplication;
+    import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+    @SpringBootApplication
+    public class Main {
+        public static void main(String[] args) {
+            SpringApplication.run(Main.class, args);
+        }
+    }
+  learner_created: false
+- name: build.gradle
+  visible: false
+  text: |-
+    plugins {
+        id 'java'
+        id 'org.springframework.boot' version '2.3.1.RELEASE'
+        id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+    }
+
+    repositories {
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+    }
+
+    sourceSets.main.resources.srcDirs = ["resources"]
+
+    dependencies {
+        implementation 'org.springframework.boot:spring-boot-starter'
+        implementation 'org.springframework.boot:spring-boot-starter-actuator'
+        implementation 'org.springframework.boot:spring-boot-starter-web'
+    }
+  learner_created: false
+- name: src/task/Controller.java
+  visible: true
+  text: |
+    package task;
+
+    import org.springframework.http.*;
+    import org.springframework.web.bind.annotation.*;
+    import org.springframework.web.server.*;
+
+    @RestController
+    public class Controller {
+
+    }
+  learner_created: false
+- name: resources/application.properties
+  visible: false
+  text: |-
+    server.port=28852
+    management.endpoints.web.exposure.include=*
+    management.endpoint.shutdown.enabled=true
+  learner_created: false
+- name: test/Tests.java
+  visible: false
+  text: |-
+    import org.hyperskill.hstest.dynamic.DynamicTest;
+    import org.hyperskill.hstest.dynamic.input.DynamicTesting;
+    import org.hyperskill.hstest.exception.outcomes.WrongAnswer;
+    import org.hyperskill.hstest.mocks.web.response.HttpResponse;
+    import org.hyperskill.hstest.stage.SpringTest;
+
+    import org.hyperskill.hstest.testcase.CheckResult;
+    import task.Main;
+
+    import static org.hyperskill.hstest.testcase.CheckResult.correct;
+
+
+    public class Tests extends SpringTest {
+
+        public Tests() {
+            super(Main.class);
+        }
+
+        static void throwIfIncorrectStatusCode(HttpResponse response, int status) {
+            if (response.getStatusCode() != status) {
+                throw new WrongAnswer(response.getRequest().getMethod() +
+                        " " + response.getRequest().getLocalUri() +
+                        " should respond with status code " + status +
+                        ", responded: " + response.getStatusCode() + "\n\n" +
+                        "Response body:\n" + response.getContent());
+            }
+        }
+
+        final int[] IDS = new int[]{200, 300, 400, 500};
+
+
+        @DynamicTest
+        final DynamicTesting[] dt = new DynamicTesting[]{
+                () -> testTest(IDS[0]),
+                () -> testTest(IDS[1]),
+                () -> testTest(IDS[2]),
+                () -> testTest(IDS[3]),
+        };
+
+        CheckResult testTest(int idAndStatusCode) {
+            HttpResponse response = get("/test/" + idAndStatusCode).send();
+
+            throwIfIncorrectStatusCode(response, idAndStatusCode);
+
+            return correct();
+        }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15215#comment
+status: Failed
+feedback:
+  message: |-
+    Wrong answer in test #1
+
+    GET /test/200 should respond with status code 200, responded: 500
+
+    Response body:
+    {&quot;timestamp&quot;:&quot;2021-12-23T20:28:38.879+00:00&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;message&quot;:&quot;&quot;,&quot;path&quot;:&quot;/test/200&quot;}
+
+    Please find below the output of your program during this failed test.
+
+    ---
+
+    .   ____          _            __ _ _
+     /\\ / ___&#39;_ __ _ _(_)_ __  __ _ \ \ \ \
+    ( ( )\___ | &#39;_ | &#39;_| | &#39;_ \/ _` | \ \ \ \
+     \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+      &#39;  |____| .__|_| |_|_| |_\__, | / / / /
+     =========|_|==============|___/=/_/_/_/
+     :: Spring Boot ::        (v2.3.1.RELEASE)
+
+    2021-12-23 23:28:31.869  INFO 14056 --- [    Test worker] task.Main                                : Starting Main on aglot with PID 14056 (started by aglot in /home/aglot/IdeaProjects/Recipes/Topics/Exception handling/Four status codes)
+    2021-12-23 23:28:31.880  INFO 14056 --- [    Test worker] task.Main                                : No active profile set, falling back to default profiles: default
+    2021-12-23 23:28:35.347  INFO 14056 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
+    2021-12-23 23:28:35.379  INFO 14056 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+    2021-12-23 23:28:35.380  INFO 14056 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+    2021-12-23 23:28:35.673  INFO 14056 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+    2021-12-23 23:28:35.673  INFO 14056 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3652 ms
+    2021-12-23 23:28:36.625  INFO 14056 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService &#39;applicationTaskExecutor&#39;
+    2021-12-23 23:28:37.591  INFO 14056 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path &#39;/actuator&#39;
+    2021-12-23 23:28:37.744  INFO 14056 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path &#39;&#39;
+    2021-12-23 23:28:37.791  INFO 14056 --- [    Test worker] task.Main                                : Started Main in 7.024 seconds (JVM running for 8.583)
+    2021-12-23 23:28:38.734  INFO 14056 --- [io-28852-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet &#39;dispatcherServlet&#39;
+    2021-12-23 23:28:38.742  INFO 14056 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet &#39;dispatcherServlet&#39;
+    2021-12-23 23:28:38.757  INFO 14056 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+    2021-12-23 23:28:38.847  WARN 14056 --- [io-28852-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable &#39;id&#39; for method parameter of type Long]
+  time: Thu, 23 Dec 2021 20:28:39 UTC
+record: -1

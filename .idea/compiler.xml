@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.22/9c08ea24c6eb714e2d6170e8122c069a0ba9aacf/lombok-1.18.22.jar" />
+        </processorPath>
+        <module name="Recipes.Topics-Constructor-Theory.main" />
+        <module name="Recipes.Topics-The_List_interface-Split_a_list_into_sublists.test" />
+        <module name="Recipes.Topics-Multiple_constructors-Employee.test" />
+        <module name="Recipes.Topics-Defining_classes-Inner_boxes.main" />
+        <module name="Recipes.Topics-ArrayList-Theory.test" />
+        <module name="Recipes.Topics-Default_methods-Implement_a_default_method.test" />
+        <module name="Recipes.Topics-Constructor-Geometric_cube.test" />
+        <module name="Recipes.Topics-Exception_handling-Four_status_codes-build-generated-sources-headers-java.test" />
+        <module name="Recipes.Topics-LocalDate-2_weeks_after.test" />
+        <module name="Recipes.Topics-Integer_types_and_operations-Desks.main" />
+        <module name="Recipes.Topics-Hierarchy_of_exceptions-Theory.main" />
+        <module name="Recipes.Topics-Lambda_expressions-Statements.main" />
+        <module name="Recipes.Topics-Builder-Builder.test" />
+        <module name="Recipes.Topics-Optional-Avoiding_exceptions.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items-build-generated-sources-headers-java.main" />
+        <module name="Recipes.Topics-Instance_methods-Simulating_a_clock.test" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-test-results.main" />
+        <module name="Recipes.Topics-Regexes_in_programs-Theory.test" />
+        <module name="Recipes.util.main" />
+        <module name="Recipes.Topics-Exception_handling-Four_status_codes-build-reports-tests.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator-build-reports-tests.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Theory.main" />
+        <module name="Recipes.Topics-Thread_management-VeganPizza.test" />
+        <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint-build-reports-tests.test" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Theory.main" />
+        <module name="Recipes.Topics-Optional-A_suitable_method.main" />
+        <module name="Recipes.Topics-Regexes_in_programs-E-mail_address.test" />
+        <module name="Recipes.Topics-Introduction_to_generic_programming-Theory.test" />
+        <module name="Recipes.Topics-Getters_and_setters-Theory.main" />
+        <module name="Recipes.Topics-Exception_handling-Advantages_of_a_basic_class.test" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Important_message.main" />
+        <module name="Recipes.Topics-The_Map_interface-Getting_submaps.main" />
+        <module name="Recipes.Recipes-task-build-reports-tests.test" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-generated-sources-annotationProcessor-java.main" />
+        <module name="Recipes.Topics-Instance_methods-Theory.test" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items-build-generated-sources-annotationProcessor-java.main" />
+        <module name="Recipes.Topics-Optional-Create_an_Optional_value.test" />
+        <module name="Recipes.Topics-Getters_and_setters-Complex.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items.main" />
+        <module name="Recipes.Topics-The_Map_interface-Tricky_sub-maps.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items-build-reports-tests.test" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-tmp.main" />
+        <module name="Recipes.Topics-HashMap-Countries_and_capitals.test" />
+        <module name="Recipes.Topics-Instance_methods-Patient_needs_a_doctor.main" />
+        <module name="Recipes.Topics-Multiple_constructors-Time.test" />
+        <module name="Recipes.Topics-Default_methods-What_is_a_result_.test" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-generated-sources-headers-java.test" />
+        <module name="Recipes.Topics-Lambda_expressions-Production_of_all_numbers_in_the_range.test" />
+        <module name="Recipes.Topics-Optional-What_is_Optional_.test" />
+        <module name="Recipes.Topics-The_Map_interface-Basics_of_Maps.main" />
+        <module name="Recipes.Topics-Package-Binary_search.main" />
+        <module name="Recipes.Topics-Generics_and_Object-Initialize_an_object_of_a_generic_class.main" />
+        <module name="Recipes.Topics-Defining_classes-Theory.test" />
+        <module name="Recipes.Topics-HashMap-How_many_buckets_.test" />
+        <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint-build-test-results.main" />
+        <module name="Recipes.Topics-Anonymous_classes-An_anonymous_class_with_three_methods.main" />
+        <module name="Recipes.Topics-The_Set_interface-Output_elements.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items-build-classes-java.test" />
+        <module name="Recipes.Recipes-task-build-tmp.main" />
+        <module name="Recipes.Topics-Custom_threads-Multiple_threads.main" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Important_message-build-generated-sources-headers-java.test" />
+        <module name="Recipes.Recipes-task-build-generated-sources-headers-java.test" />
+        <module name="Recipes.Topics-The_Map_interface-Determine_values_of_variables.test" />
+        <module name="Recipes.Recipes-task.main" />
+        <module name="Recipes.Topics-Exception_handling-Four_status_codes-build-classes-java.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-reports-tests.main" />
+        <module name="Recipes.Topics-Lambda_expressions-Next_even_number.main" />
+        <module name="Recipes.Topics-The_Set_interface-Symmetric_difference.main" />
+        <module name="Recipes.Topics-HashMap-Advantages.main" />
+        <module name="Recipes.Topics-Thread_synchronization-Theory.main" />
+        <module name="Recipes.Topics-HashMap-Theory.main" />
+        <module name="Recipes.Topics-Regexes_in_programs-Check_IP_address.main" />
+        <module name="Recipes.Topics-Regexes_in_programs-Check_the_clock_time.main" />
+        <module name="Recipes.Topics-The_Map_interface-Displaying_pairs.main" />
+        <module name="Recipes.Topics-Instance_methods-Car.main" />
+        <module name="Recipes.Topics-Default_methods-What_is_the_reason_for_default_methods_.test" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products.test" />
+        <module name="Recipes.Topics-Integer_types_and_operations-Theory.test" />
+        <module name="Recipes.Topics-The_Set_interface-Strict_superset.test" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items-build-test-results.main" />
+        <module name="Recipes.Topics-Custom_threads-Starting_runnables.test" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-classes-java.test" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-tmp.test" />
+        <module name="Recipes.Topics-The_Set_interface-Spell_checker.test" />
+        <module name="Recipes.Topics-Builder-Disadvantage_of_Builder_pattern.main" />
+        <module name="Recipes.Topics-Instance_methods-Circle.test" />
+        <module name="Recipes.Topics-Instance_methods-Complex_numbers.test" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-reports-tests.main" />
+        <module name="Recipes.Topics-The_List_interface-Backward_indexes.test" />
+        <module name="Recipes.Topics-Standard_functional_interfaces-Theory.main" />
+        <module name="Recipes.Topics-Standard_functional_interfaces-Select_suitable_interfaces.main" />
+        <module name="Recipes.Topics-Lambda_expressions-Higher-order_functions.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator-build-classes-java.main" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Important_message-build-generated-sources-annotationProcessor-java.test" />
+        <module name="Recipes.Topics-Custom_threads-Starting_threads.main" />
+        <module name="Recipes.Topics-Interface-Mutable_geometric_shapes.main" />
+        <module name="Recipes.Topics-The_Collections_Framework_overview-Squares_list.main" />
+        <module name="Recipes.Topics-Optional-The_address_book.main" />
+        <module name="Recipes.Topics-toString__-Users_as_strings.main" />
+        <module name="Recipes.Topics-Hierarchy_of_exceptions-UncheckedException.test" />
+        <module name="Recipes.Topics-Multiple_constructors-Theory.test" />
+        <module name="Recipes.Topics-The_Collections_Framework_overview-Theory.main" />
+        <module name="Recipes.Topics-The_List_interface-Theory.test" />
+        <module name="Recipes.Topics-Exception_handling-Four_status_codes-build-generated-sources-annotationProcessor-java.test" />
+        <module name="Recipes.Topics-The_Collections_Framework_overview-Blacklist.test" />
+        <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint-build-classes-java.test" />
+        <module name="Recipes.Topics-HashMap-When_to_use_.test" />
+        <module name="Recipes.Topics-Default_methods-What_is_a_result_.main" />
+        <module name="Recipes.Topics-Generics_and_Object-Correct_the_usage_of_non-generic_class.main" />
+        <module name="Recipes.Topics-Getters_and_setters-Complex.test" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator-build-reports-tests.test" />
+        <module name="Recipes.Topics-Lambda_expressions-Production_of_all_numbers_in_the_range.main" />
+        <module name="Recipes.Topics-Thread_management-Ordering_the_execution_of_threads.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Return_query_parameter.test" />
+        <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint-build-tmp.test" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator-build-generated-sources-annotationProcessor-java.main" />
+        <module name="Recipes.Topics-Lambda_expressions-Apply_function_to_all_elements.main" />
+        <module name="Recipes.Topics-Optional-A_suitable_method.test" />
+        <module name="Recipes.Topics-LocalDate-2_weeks_after.main" />
+        <module name="Recipes.Topics-Exception_handling-Basic_class.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-classes-java.main" />
+        <module name="Recipes.Topics-Regexes_in_programs-Card_name_validation_and_identification.test" />
+        <module name="Recipes.Topics-Custom_threads-Starting_runnables.main" />
+        <module name="Recipes.Topics-ArrayList-Theory.main" />
+        <module name="Recipes.Topics-Instance_methods-Theory.main" />
+        <module name="Recipes.Topics-Hierarchy_of_exceptions-Theory.test" />
+        <module name="Recipes.Topics-Integer_types_and_operations-Desks.test" />
+        <module name="Recipes.Recipes-task-build-reports-tests.main" />
+        <module name="Recipes.Topics-Exception_handling-Improve_the_program.main" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-classes-java.main" />
+        <module name="Recipes.Topics-The_Map_interface-Existing_implementations.main" />
+        <module name="Recipes.Topics-Exception_handling-@ResponseStatus_annotation.main" />
+        <module name="Recipes.Topics-Standard_functional_interfaces-Select_suitable_interfaces.test" />
+        <module name="Recipes.util.test" />
+        <module name="Recipes.Topics-The_List_interface-Companies.test" />
+        <module name="Recipes.Topics-Builder-Subway_Sandwich.main" />
+        <module name="Recipes.Topics-LocalDate-Methods_of_LocalDate.test" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator-build-generated-sources-headers-java.test" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-generated-sources-headers-java.main" />
+        <module name="Recipes.Topics-HashMap-The_same_letter.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator-build-tmp.test" />
+        <module name="Recipes.Topics-Integer_types_and_operations-Theory.main" />
+        <module name="Recipes.Recipes-task-build-generated-sources-annotationProcessor-java.test" />
+        <module name="Recipes.Topics-The_Set_interface-Theory.test" />
+        <module name="Recipes.Topics-Default_methods-Default_method's_body_.main" />
+        <module name="Recipes.Topics-Multiple_constructors-Movie.main" />
+        <module name="Recipes.Topics-HashMap-Countries_and_capitals.main" />
+        <module name="Recipes.Topics-Constructor-Geometric_cube.main" />
+        <module name="Recipes.Topics-Getting_data_from_REST-Theory.main" />
+        <module name="Recipes.Topics-Generics_and_Object-Boxes_are_not_just_objects_.main" />
+        <module name="Recipes.Topics-The_Map_interface-Modifying_a_map.test" />
+        <module name="Recipes.Topics-The_Set_interface-Removing_elements.main" />
+        <module name="Recipes.Topics-The_List_interface-Split_a_list_into_sublists.main" />
+        <module name="Recipes.Topics-Standard_functional_interfaces-Package_java.util.function.test" />
+        <module name="Recipes.Topics-Exception_handling-Rewrite_using_a_basic_class.test" />
+        <module name="Recipes.Topics-Regexes_in_programs-Theory.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-generated-sources-headers-java.main" />
+        <module name="Recipes.Topics-Package-Theory.test" />
+        <module name="Recipes.Topics-Regexes_in_programs-E-mail_address.main" />
+        <module name="Recipes.Topics-Optional-Check_an_Optional_value.test" />
+        <module name="Recipes.Topics-Introduction_to_generic_programming-Pastry_packing_optimization.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items-build-generated-sources-annotationProcessor-java.test" />
+        <module name="Recipes.Topics-Lambda_expressions-Max_of_two_integers.test" />
+        <module name="Recipes.Topics-The_Map_interface-Creating_a_map.main" />
+        <module name="Recipes.Topics-Default_methods-Implement_a_default_method.main" />
+        <module name="Recipes.Topics-Exception_handling-Four_status_codes.main" />
+        <module name="Recipes.Topics-Default_methods-Diamond_problem.test" />
+        <module name="Recipes.Topics-Lambda_expressions-Expressions.test" />
+        <module name="Recipes.Topics-The_Map_interface-Tricky_sub-maps.test" />
+        <module name="Recipes.Topics-Thread_synchronization-Theory.test" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items-build-tmp.test" />
+        <module name="Recipes.Topics-Custom_threads-Theory.main" />
+        <module name="Recipes.Topics-Builder-Theory.test" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items-build-generated-sources-headers-java.test" />
+        <module name="Recipes.Topics-Regexes_in_programs-Illegal_identifiers.main" />
+        <module name="Recipes.Topics-The_List_interface-Backward_indexes.main" />
+        <module name="Recipes.Topics-Instance_methods-Counter.main" />
+        <module name="Recipes.Topics-Default_methods-Add_new_default_method.test" />
+        <module name="Recipes.Topics-The_List_interface-Greek_letters.main" />
+        <module name="Recipes.Topics-Exception_handling-Default_status_code.main" />
+        <module name="Recipes.Topics-Abstract_class-Theory.test" />
+        <module name="Recipes.Topics-Default_methods-What_is_the_reason_for_default_methods_.main" />
+        <module name="Recipes.Topics-Exception_handling-Theory__1_.test" />
+        <module name="Recipes.Recipes-task-build-test-results.test" />
+        <module name="Recipes.Topics-Hierarchy_of_exceptions-UncheckedException.main" />
+        <module name="Recipes.Topics-The_List_interface-Theory.main" />
+        <module name="Recipes.Topics-The_Map_interface-The_property_of_TreeMap.main" />
+        <module name="Recipes.Topics-Thread_synchronization-Countdown_counter.test" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items-build-reports-tests.main" />
+        <module name="Recipes.Topics-Anonymous_classes-An_anonymous_class_with_three_methods.test" />
+        <module name="Recipes.Topics-Exception_handling-Add_an_HttpStatus_to_response.test" />
+        <module name="Recipes.Topics-The_List_interface-Count_the_value_occurrences.test" />
+        <module name="Recipes.Topics-The_Set_interface-Spell_checker.main" />
+        <module name="Recipes.Topics-Exception_handling-Improve_the_program.test" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-reports-tests.test" />
+        <module name="Recipes.Topics-Standard_functional_interfaces-Ternary_operator.test" />
+        <module name="Recipes.Topics-Package-Binary_search.test" />
+        <module name="Recipes.Topics-Thread_management-VeganPizza.main" />
+        <module name="Recipes.Topics-Regexes_in_programs-Check_the_date.test" />
+        <module name="Recipes.Topics-toString__-Theory.main" />
+        <module name="Recipes.Topics-Defining_classes-Theory.main" />
+        <module name="Recipes.Topics-Multiple_constructors-Phone.main" />
+        <module name="Recipes.Topics-Custom_threads-Numbers_filter.main" />
+        <module name="Recipes.Topics-HashMap-Remove_long_names.main" />
+        <module name="Recipes.Topics-Exception_handling-Four_status_codes-build-tmp.test" />
+        <module name="Recipes.Topics-Thread_synchronization-Multithreaded_counter.test" />
+        <module name="Recipes.Topics-Anonymous_classes-Single_method.main" />
+        <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint-build-test-results.test" />
+        <module name="Recipes.Topics-Custom_threads-String_processor.main" />
+        <module name="Recipes.Topics-toString__-Users_as_strings.test" />
+        <module name="Recipes.Topics-Anonymous_classes-String_reverser.test" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-generated-sources-annotationProcessor-java.main" />
+        <module name="Recipes.Topics-Custom_threads-Message_notifier_as_a_thread.main" />
+        <module name="Recipes.Topics-Anonymous_classes-And_always_these_rules.main" />
+        <module name="Recipes.Topics-Getters_and_setters-Account.test" />
+        <module name="Recipes.Topics-Instance_methods-Complex_numbers.main" />
+        <module name="Recipes.Topics-Builder-Robot_Builder.main" />
+        <module name="Recipes.Topics-The_Map_interface-Sherlock_Holmes_and_removing_of_characters.main" />
+        <module name="Recipes.Topics-The_Map_interface-Theory.test" />
+        <module name="Recipes.Topics-HashMap-How_many_buckets_.main" />
+        <module name="Recipes.Topics-Abstract_class-Users_and_WebSites.test" />
+        <module name="Recipes.Topics-Standard_functional_interfaces-Theory.test" />
+        <module name="Recipes.Topics-Getters_and_setters-Book.test" />
+        <module name="Recipes.Topics-Lambda_expressions-Creating_a_closure.main" />
+        <module name="Recipes.Topics-LocalDate-Methods_of_LocalDate.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator-build-generated-sources-headers-java.main" />
+        <module name="Recipes.Topics-Exception_handling-@ResponseStatus_annotation.test" />
+        <module name="Recipes.Topics-Package-Theory.main" />
+        <module name="Recipes.Topics-Default_methods-Default_method's_body_.test" />
+        <module name="Recipes.Topics-Anonymous_classes-String_reverser.main" />
+        <module name="Recipes.Topics-The_Set_interface-Theory.main" />
+        <module name="Recipes.Topics-Interface-Mutable_geometric_shapes.test" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-classes-java.test" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator-build-tmp.main" />
+        <module name="Recipes.Topics-Custom_threads-Starting_threads.test" />
+        <module name="Recipes.Topics-Defining_classes-Books.test" />
+        <module name="Recipes.Topics-Interface-Theory.test" />
+        <module name="Recipes.Topics-Optional-The_address_book.test" />
+        <module name="Recipes.Topics-Builder-Describe_the_builder.test" />
+        <module name="Recipes.Topics-Multiple_constructors-Theory.main" />
+        <module name="Recipes.Topics-The_Map_interface-Sherlock_Holmes_and_the_mystery_of_anagrams.main" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Adding_new_functionality.test" />
+        <module name="Recipes.Topics-Lambda_expressions-Creating_a_closure.test" />
+        <module name="Recipes.Topics-Anonymous_classes-What_about_context_.test" />
+        <module name="Recipes.Topics-Interface-Area_of_a_circle.test" />
+        <module name="Recipes.Topics-Inheritance-Classes_for_Hospital.main" />
+        <module name="Recipes.Topics-Lambda_expressions-Higher-order_functions.test" />
+        <module name="Recipes.Topics-Anonymous_classes-Single_method.test" />
+        <module name="Recipes.Topics-Defining_classes-Representing_time_as_a_class.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-generated-sources-annotationProcessor-java.test" />
+        <module name="Recipes.Topics-Multiple_constructors-Movie.test" />
+        <module name="Recipes.Topics-HashMap-When_to_use_.main" />
+        <module name="Recipes.Topics-Lambda_expressions-Expression_closure.test" />
+        <module name="Recipes.Topics-Anonymous_classes-Implement_Runnable.main" />
+        <module name="Recipes.Topics-Lambda_expressions-Apply_function_to_all_elements.test" />
+        <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint-build-tmp.main" />
+        <module name="Recipes.Topics-Thread_management-Ordering_the_execution_of_threads.test" />
+        <module name="Recipes.Topics-Regexes_in_programs-Illegal_identifiers.test" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator-build-test-results.test" />
+        <module name="Recipes.Topics-Builder-Theory.main" />
+        <module name="Recipes.Topics-Default_methods-Diamond_problem.main" />
+        <module name="Recipes.Topics-Custom_threads-Theory.test" />
+        <module name="Recipes.Topics-The_Map_interface-Counting_words.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items-build-classes-java.main" />
+        <module name="Recipes.Topics-The_List_interface-Count_the_value_occurrences.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-generated-sources-headers-java.test" />
+        <module name="Recipes.Topics-Instance_methods-In_a_box.main" />
+        <module name="Recipes.Topics-The_List_interface-Greek_letters.test" />
+        <module name="Recipes.Topics-Thread_management-Calculate_the_number_of_distinct_characters.test" />
+        <module name="Recipes.Topics-Generics_and_Object-Initialize_an_object_of_a_generic_class.test" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products.main" />
+        <module name="Recipes.Topics-Regexes_in_programs-Safe_password.test" />
+        <module name="Recipes.Topics-LocalDate-10_days_before.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator.test" />
+        <module name="Recipes.Recipes-task.test" />
+        <module name="Recipes.Topics-Regexes_in_programs-Check_IP_address.test" />
+        <module name="Recipes.Topics-Generics_and_Object-Correct_the_usage_of_non-generic_class.test" />
+        <module name="Recipes.Topics-Builder-Builder__1_.test" />
+        <module name="Recipes.Topics-HashMap-Theory.test" />
+        <module name="Recipes.Topics-Inheritance-Theory.test" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-test-results.main" />
+        <module name="Recipes.Topics-The_Set_interface-Output_elements.test" />
+        <module name="Recipes.Recipes-task-build-generated-sources-annotationProcessor-java.main" />
+        <module name="Recipes.Topics-Exception_handling-Throw_an_exception.test" />
+        <module name="Recipes.Topics-Introduction_to_generic_programming-Pastry_packing_optimization.test" />
+        <module name="Recipes.Topics-Default_methods-Theory.main" />
+        <module name="Recipes.Topics-Defining_classes-Complex_numbers.main" />
+        <module name="Recipes.Topics-Optional-Sum_up_optional_values.main" />
+        <module name="Recipes.Topics-Standard_functional_interfaces-Package_java.util.function.main" />
+        <module name="Recipes.Topics-HashMap-The_same_letter.test" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names.test" />
+        <module name="Recipes.Topics-The_List_interface-The_longest_string_in_the_list.main" />
+        <module name="Recipes.Topics-HashMap-The_same_pairs.main" />
+        <module name="Recipes.Topics-Thread_synchronization-Countdown_counter.main" />
+        <module name="Recipes.Topics-Default_methods-Resolve_a_diamond_problem.test" />
+        <module name="Recipes.Topics-Generics_and_Object-Boxes_are_not_just_objects_.test" />
+        <module name="Recipes.Topics-Custom_threads-Message_notifier_as_a_thread.test" />
+        <module name="Recipes.Topics-Optional-Check_an_Optional_value.main" />
+        <module name="Recipes.Topics-Exception_handling-String_to_double_conversion.test" />
+        <module name="Recipes.Topics-The_Map_interface-Creating_a_map.test" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Important_message-build-classes-java.main" />
+        <module name="Recipes.Topics-Regexes_in_programs-Vehicle_registration_number.main" />
+        <module name="Recipes.Recipes-task-build-classes-java.test" />
+        <module name="Recipes.Topics-ArrayList-Concat_positive_numbers.test" />
+        <module name="Recipes.Topics-Getting_data_from_REST-Theory.test" />
+        <module name="Recipes.Topics-The_Map_interface-Kidnapper_of_Ice_cream.test" />
+        <module name="Recipes.Topics-ArrayList-Output_the_list's_elements.main" />
+        <module name="Recipes.Topics-Optional-Create_an_Optional_value.main" />
+        <module name="Recipes.Topics-Custom_threads-Writing_a_thread_for_printing_numbers.main" />
+        <module name="Recipes.Topics-Abstract_class-Theory.main" />
+        <module name="Recipes.Topics-The_Set_interface-Removing_elements.test" />
+        <module name="Recipes.Topics-LocalDate-Theory.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-tmp.test" />
+        <module name="Recipes.Topics-Thread_management-Theory.main" />
+        <module name="Recipes.Topics-The_Map_interface-The_property_of_TreeMap.test" />
+        <module name="Recipes.Topics-Exception_handling-Add_an_HttpStatus_to_response.main" />
+        <module name="Recipes.Topics-Exception_handling-Theory.main" />
+        <module name="Recipes.Topics-Exception_handling-Theory__1_.main" />
+        <module name="Recipes.Recipes-task-build-test-results.main" />
+        <module name="Recipes.Topics-The_Map_interface-Sherlock_Holmes_and_removing_of_characters.test" />
+        <module name="Recipes.Topics-Builder-Geek_Builder.main" />
+        <module name="Recipes.Topics-Getters_and_setters-Getting_the_fullname.test" />
+        <module name="Recipes.Topics-The_Set_interface-Creating_a_set.main" />
+        <module name="Recipes.Topics-Exception_handling-Four_status_codes-build-test-results.test" />
+        <module name="Recipes.Topics-Exception_handling-Default_status_code.test" />
+        <module name="Recipes.Topics-Lambda_expressions-Theory.test" />
+        <module name="Recipes.Topics-Builder-Robot_Builder.test" />
+        <module name="Recipes.Topics-Anonymous_classes-Theory.test" />
+        <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint-build-generated-sources-annotationProcessor-java.main" />
+        <module name="Recipes.Topics-Introduction_to_generic_programming-Theory.main" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Theory.test" />
+        <module name="Recipes.Topics-Multiple_constructors-Phone.test" />
+        <module name="Recipes.Topics-Optional-Theory.main" />
+        <module name="Recipes.Topics-The_Map_interface-Theory.main" />
+        <module name="Recipes.Topics-Exception_handling-Four_status_codes-build-tmp.main" />
+        <module name="Recipes.Topics-Abstract_class-Users_and_WebSites.main" />
+        <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint.test" />
+        <module name="Recipes.Topics-Introduction_to_generic_programming-Correct_the_program.test" />
+        <module name="Recipes.Topics-Lambda_expressions-Statements.test" />
+        <module name="Recipes.Topics-Instance_methods-Simulating_a_clock.main" />
+        <module name="Recipes.Topics-Exception_handling-Four_status_codes-build-generated-sources-headers-java.main" />
+        <module name="Recipes.Topics-Regexes_in_programs-Check_the_date.main" />
+        <module name="Recipes.Topics-Generics_and_Object-Theory.test" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator-build-generated-sources-annotationProcessor-java.test" />
+        <module name="Recipes.Topics-Standard_functional_interfaces-Ternary_operator.main" />
+        <module name="Recipes.Topics-Getting_data_from_REST-Welcome.test" />
+        <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint-build-generated-sources-headers-java.test" />
+        <module name="Recipes.Topics-Getters_and_setters-Account.main" />
+        <module name="Recipes.Topics-Anonymous_classes-Implement_Runnable.test" />
+        <module name="Recipes.Topics-Defining_classes-Representing_time_as_a_class.test" />
+        <module name="Recipes.Topics-Interface-Area_of_a_circle.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-test-results.test" />
+        <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint-build-reports-tests.main" />
+        <module name="Recipes.Topics-Inheritance-Theory.main" />
+        <module name="Recipes.Topics-The_Map_interface-Counting_words.test" />
+        <module name="Recipes.Topics-Exception_handling-Advantages_of_a_basic_class.main" />
+        <module name="Recipes.Topics-Lambda_expressions-Expression_closure.main" />
+        <module name="Recipes.Topics-HashMap-Remove_long_names.test" />
+        <module name="Recipes.Topics-Getting_data_from_REST-Welcome.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items.test" />
+        <module name="Recipes.Topics-Getters_and_setters-Book.main" />
+        <module name="Recipes.Topics-Thread_management-Calculate_the_number_of_distinct_characters.main" />
+        <module name="Recipes.Topics-Custom_threads-String_processor.test" />
+        <module name="Recipes.Topics-Thread_synchronization-Multithreaded_counter.main" />
+        <module name="Recipes.Topics-Multiple_constructors-Employee.main" />
+        <module name="Recipes.Topics-Anonymous_classes-And_always_these_rules.test" />
+        <module name="Recipes.Topics-Builder-Describe_the_builder.main" />
+        <module name="Recipes.Topics-Inheritance-Classes_for_Hospital.test" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator-build-test-results.main" />
+        <module name="Recipes.Topics-Optional-Avoiding_exceptions.test" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-tmp.main" />
+        <module name="Recipes.Topics-Defining_classes-Books.main" />
+        <module name="Recipes.Topics-LocalDate-10_days_before.test" />
+        <module name="Recipes.Topics-The_Map_interface-Getting_submaps.test" />
+        <module name="Recipes.Topics-Optional-What_is_Optional_.main" />
+        <module name="Recipes.Topics-Defining_classes-Complex_numbers.test" />
+        <module name="Recipes.Topics-The_Map_interface-Kidnapper_of_Ice_cream.main" />
+        <module name="Recipes.Topics-Instance_methods-Patient_needs_a_doctor.test" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Theory.test" />
+        <module name="Recipes.Topics-Default_methods-Add_new_default_method.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names.main" />
+        <module name="Recipes.Topics-Custom_threads-Numbers_filter.test" />
+        <module name="Recipes.Topics-Multiple_constructors-Time.main" />
+        <module name="Recipes.Topics-Default_methods-Resolve_a_diamond_problem.main" />
+        <module name="Recipes.Topics-HashMap-The_same_pairs.test" />
+        <module name="Recipes.Topics-Defining_classes-Inner_boxes.test" />
+        <module name="Recipes.Topics-The_List_interface-The_longest_string_in_the_list.test" />
+        <module name="Recipes.Topics-The_Map_interface-Basics_of_Maps.test" />
+        <module name="Recipes.Topics-Instance_methods-In_a_box.test" />
+        <module name="Recipes.Topics-Default_methods-Theory.test" />
+        <module name="Recipes.Topics-Interface-Theory.main" />
+        <module name="Recipes.Topics-Optional-Sum_up_optional_values.test" />
+        <module name="Recipes.Topics-Exception_handling-Throw_an_exception.main" />
+        <module name="Recipes.Recipes-task-build-generated-sources-headers-java.main" />
+        <module name="Recipes.Topics-Exception_handling-Four_status_codes.test" />
+        <module name="Recipes.Topics-toString__-Theory.test" />
+        <module name="Recipes.Topics-Builder-Builder__1_.main" />
+        <module name="Recipes.Topics-The_Set_interface-Symmetric_difference.test" />
+        <module name="Recipes.Topics-Instance_methods-Counter.test" />
+        <module name="Recipes.Topics-The_Map_interface-Sherlock_Holmes_and_the_mystery_of_anagrams.test" />
+        <module name="Recipes.Topics-Exception_handling-Four_status_codes-build-reports-tests.test" />
+        <module name="Recipes.Topics-HashMap-Advantages.test" />
+        <module name="Recipes.Topics-Builder-Builder.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-reports-tests.test" />
+        <module name="Recipes.Topics-Anonymous_classes-What_about_context_.main" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Important_message.test" />
+        <module name="Recipes.Topics-Lambda_expressions-Max_of_two_integers.main" />
+        <module name="Recipes.Topics-Lambda_expressions-Next_even_number.test" />
+        <module name="Recipes.Topics-Custom_threads-Writing_a_thread_for_printing_numbers.test" />
+        <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint-build-generated-sources-headers-java.main" />
+        <module name="Recipes.Topics-Regexes_in_programs-Check_the_clock_time.test" />
+        <module name="Recipes.Topics-Lambda_expressions-Expressions.main" />
+        <module name="Recipes.Topics-The_Map_interface-Modifying_a_map.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items-build-tmp.main" />
+        <module name="Recipes.Topics-Instance_methods-Car.test" />
+        <module name="Recipes.Topics-The_Set_interface-Strict_superset.main" />
+        <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint-build-classes-java.main" />
+        <module name="Recipes.Topics-Exception_handling-Theory.test" />
+        <module name="Recipes.Topics-Thread_management-Theory.test" />
+        <module name="Recipes.Topics-Custom_threads-Multiple_threads.test" />
+        <module name="Recipes.Topics-The_Collections_Framework_overview-Blacklist.main" />
+        <module name="Recipes.Topics-ArrayList-Output_the_list's_elements.test" />
+        <module name="Recipes.Topics-Builder-Disadvantage_of_Builder_pattern.test" />
+        <module name="Recipes.Topics-Instance_methods-Circle.main" />
+        <module name="Recipes.Topics-Regexes_in_programs-Vehicle_registration_number.test" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-generated-sources-annotationProcessor-java.test" />
+        <module name="Recipes.Topics-The_Set_interface-Creating_a_set.test" />
+        <module name="Recipes.Topics-The_Collections_Framework_overview-Squares_list.test" />
+        <module name="Recipes.Topics-Exception_handling-String_to_double_conversion.main" />
+        <module name="Recipes.Topics-Introduction_to_generic_programming-Correct_the_program.main" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator-build-classes-java.test" />
+        <module name="Recipes.Topics-Exception_handling-Rewrite_using_a_basic_class.main" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Adding_new_functionality.main" />
+        <module name="Recipes.Topics-Regexes_in_programs-Safe_password.main" />
+        <module name="Recipes.Topics-ArrayList-Concat_positive_numbers.main" />
+        <module name="Recipes.Topics-LocalDate-Theory.test" />
+        <module name="Recipes.Topics-The_Map_interface-Existing_implementations.test" />
+        <module name="Recipes.Topics-The_List_interface-Companies.main" />
+        <module name="Recipes.Topics-Exception_handling-Four_status_codes-build-classes-java.test" />
+        <module name="Recipes.Recipes-task-build-tmp.test" />
+        <module name="Recipes.Topics-Regexes_in_programs-Card_name_validation_and_identification.main" />
+        <module name="Recipes.Topics-Exception_handling-Basic_class.test" />
+        <module name="Recipes.Topics-The_Map_interface-Displaying_pairs.test" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Important_message-build-generated-sources-annotationProcessor-java.main" />
+        <module name="Recipes.Topics-Generics_and_Object-Theory.main" />
+        <module name="Recipes.Topics-Exception_handling-Four_status_codes-build-generated-sources-annotationProcessor-java.main" />
+        <module name="Recipes.Topics-Getters_and_setters-Theory.test" />
+        <module name="Recipes.Topics-Builder-Subway_Sandwich.test" />
+        <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint.main" />
+        <module name="Recipes.Topics-The_Collections_Framework_overview-Theory.test" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Important_message-build-generated-sources-headers-java.main" />
+        <module name="Recipes.Recipes-task-build-classes-java.main" />
+        <module name="Recipes.Topics-Anonymous_classes-Theory.main" />
+        <module name="Recipes.Topics-Optional-Theory.test" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items-build-test-results.test" />
+        <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint-build-generated-sources-annotationProcessor-java.test" />
+        <module name="Recipes.Topics-Getters_and_setters-Getting_the_fullname.main" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Important_message-build-classes-java.test" />
+        <module name="Recipes.Topics-Lambda_expressions-Theory.main" />
+        <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-test-results.test" />
+        <module name="Recipes.Topics-The_Map_interface-Determine_values_of_variables.main" />
+        <module name="Recipes.Topics-Exception_handling-Four_status_codes-build-test-results.main" />
+        <module name="Recipes.Topics-Builder-Geek_Builder.test" />
+        <module name="Recipes.Topics-Constructor-Theory.test" />
+        <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Return_query_parameter.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17">
+      <module name="Recipes.Recipes-task-build-classes-java.main" target="11" />
+      <module name="Recipes.Recipes-task-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Recipes.Recipes-task-build-generated-sources-headers-java.main" target="11" />
+      <module name="Recipes.Recipes-task-build-reports-tests.main" target="11" />
+      <module name="Recipes.Recipes-task-build-test-results.main" target="11" />
+      <module name="Recipes.Recipes-task-build-tmp.main" target="11" />
+      <module name="Recipes.Recipes-task.main" target="11" />
+      <module name="Recipes.Topics-Abstract_class-Theory.main" target="11" />
+      <module name="Recipes.Topics-Abstract_class-Users_and_WebSites.main" target="11" />
+      <module name="Recipes.Topics-Anonymous_classes-An_anonymous_class_with_three_methods.main" target="11" />
+      <module name="Recipes.Topics-Anonymous_classes-And_always_these_rules.main" target="11" />
+      <module name="Recipes.Topics-Anonymous_classes-Implement_Runnable.main" target="11" />
+      <module name="Recipes.Topics-Anonymous_classes-Single_method.main" target="11" />
+      <module name="Recipes.Topics-Anonymous_classes-String_reverser.main" target="11" />
+      <module name="Recipes.Topics-Anonymous_classes-Theory.main" target="11" />
+      <module name="Recipes.Topics-Anonymous_classes-What_about_context_.main" target="11" />
+      <module name="Recipes.Topics-ArrayList-Concat_positive_numbers.main" target="11" />
+      <module name="Recipes.Topics-ArrayList-Output_the_list's_elements.main" target="11" />
+      <module name="Recipes.Topics-ArrayList-Theory.main" target="11" />
+      <module name="Recipes.Topics-Builder-Builder.main" target="11" />
+      <module name="Recipes.Topics-Builder-Builder__1_.main" target="11" />
+      <module name="Recipes.Topics-Builder-Describe_the_builder.main" target="11" />
+      <module name="Recipes.Topics-Builder-Disadvantage_of_Builder_pattern.main" target="11" />
+      <module name="Recipes.Topics-Builder-Geek_Builder.main" target="11" />
+      <module name="Recipes.Topics-Builder-Robot_Builder.main" target="11" />
+      <module name="Recipes.Topics-Builder-Subway_Sandwich.main" target="11" />
+      <module name="Recipes.Topics-Builder-Theory.main" target="11" />
+      <module name="Recipes.Topics-Constructor-Geometric_cube.main" target="11" />
+      <module name="Recipes.Topics-Constructor-Theory.main" target="11" />
+      <module name="Recipes.Topics-Custom_threads-Message_notifier_as_a_thread.main" target="11" />
+      <module name="Recipes.Topics-Custom_threads-Multiple_threads.main" target="11" />
+      <module name="Recipes.Topics-Custom_threads-Numbers_filter.main" target="11" />
+      <module name="Recipes.Topics-Custom_threads-Starting_runnables.main" target="11" />
+      <module name="Recipes.Topics-Custom_threads-Starting_threads.main" target="11" />
+      <module name="Recipes.Topics-Custom_threads-String_processor.main" target="11" />
+      <module name="Recipes.Topics-Custom_threads-Theory.main" target="11" />
+      <module name="Recipes.Topics-Custom_threads-Writing_a_thread_for_printing_numbers.main" target="11" />
+      <module name="Recipes.Topics-Default_methods-Add_new_default_method.main" target="11" />
+      <module name="Recipes.Topics-Default_methods-Default_method's_body_.main" target="11" />
+      <module name="Recipes.Topics-Default_methods-Diamond_problem.main" target="11" />
+      <module name="Recipes.Topics-Default_methods-Implement_a_default_method.main" target="11" />
+      <module name="Recipes.Topics-Default_methods-Resolve_a_diamond_problem.main" target="11" />
+      <module name="Recipes.Topics-Default_methods-Theory.main" target="11" />
+      <module name="Recipes.Topics-Default_methods-What_is_a_result_.main" target="11" />
+      <module name="Recipes.Topics-Default_methods-What_is_the_reason_for_default_methods_.main" target="11" />
+      <module name="Recipes.Topics-Defining_classes-Books.main" target="11" />
+      <module name="Recipes.Topics-Defining_classes-Complex_numbers.main" target="11" />
+      <module name="Recipes.Topics-Defining_classes-Inner_boxes.main" target="11" />
+      <module name="Recipes.Topics-Defining_classes-Representing_time_as_a_class.main" target="11" />
+      <module name="Recipes.Topics-Defining_classes-Theory.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-@ResponseStatus_annotation.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Add_an_HttpStatus_to_response.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Advantages_of_a_basic_class.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Basic_class.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Default_status_code.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Four_status_codes-build-classes-java.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Four_status_codes-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Four_status_codes-build-generated-sources-headers-java.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Four_status_codes-build-reports-tests.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Four_status_codes-build-test-results.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Four_status_codes-build-tmp.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Four_status_codes.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint-build-classes-java.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint-build-generated-sources-headers-java.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint-build-reports-tests.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint-build-test-results.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint-build-tmp.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Implement_DELETE_endpoint.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Improve_the_program.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Rewrite_using_a_basic_class.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-String_to_double_conversion.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Theory.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Theory__1_.main" target="11" />
+      <module name="Recipes.Topics-Exception_handling-Throw_an_exception.main" target="11" />
+      <module name="Recipes.Topics-Generics_and_Object-Boxes_are_not_just_objects_.main" target="11" />
+      <module name="Recipes.Topics-Generics_and_Object-Correct_the_usage_of_non-generic_class.main" target="11" />
+      <module name="Recipes.Topics-Generics_and_Object-Initialize_an_object_of_a_generic_class.main" target="11" />
+      <module name="Recipes.Topics-Generics_and_Object-Theory.main" target="11" />
+      <module name="Recipes.Topics-Getters_and_setters-Account.main" target="11" />
+      <module name="Recipes.Topics-Getters_and_setters-Book.main" target="11" />
+      <module name="Recipes.Topics-Getters_and_setters-Complex.main" target="11" />
+      <module name="Recipes.Topics-Getters_and_setters-Getting_the_fullname.main" target="11" />
+      <module name="Recipes.Topics-Getters_and_setters-Theory.main" target="11" />
+      <module name="Recipes.Topics-Getting_data_from_REST-Theory.main" target="11" />
+      <module name="Recipes.Topics-Getting_data_from_REST-Welcome.main" target="11" />
+      <module name="Recipes.Topics-Handling_requests_with_bodies-Adding_new_functionality.main" target="11" />
+      <module name="Recipes.Topics-Handling_requests_with_bodies-Important_message-build-classes-java.main" target="11" />
+      <module name="Recipes.Topics-Handling_requests_with_bodies-Important_message-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Recipes.Topics-Handling_requests_with_bodies-Important_message-build-generated-sources-headers-java.main" target="11" />
+      <module name="Recipes.Topics-Handling_requests_with_bodies-Important_message.main" target="11" />
+      <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-classes-java.main" target="11" />
+      <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-generated-sources-headers-java.main" target="11" />
+      <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-reports-tests.main" target="11" />
+      <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-test-results.main" target="11" />
+      <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products-build-tmp.main" target="11" />
+      <module name="Recipes.Topics-Handling_requests_with_bodies-Receiving_and_returning_products.main" target="11" />
+      <module name="Recipes.Topics-Handling_requests_with_bodies-Theory.main" target="11" />
+      <module name="Recipes.Topics-HashMap-Advantages.main" target="11" />
+      <module name="Recipes.Topics-HashMap-Countries_and_capitals.main" target="11" />
+      <module name="Recipes.Topics-HashMap-How_many_buckets_.main" target="11" />
+      <module name="Recipes.Topics-HashMap-Remove_long_names.main" target="11" />
+      <module name="Recipes.Topics-HashMap-The_same_letter.main" target="11" />
+      <module name="Recipes.Topics-HashMap-The_same_pairs.main" target="11" />
+      <module name="Recipes.Topics-HashMap-Theory.main" target="11" />
+      <module name="Recipes.Topics-HashMap-When_to_use_.main" target="11" />
+      <module name="Recipes.Topics-Hierarchy_of_exceptions-Theory.main" target="11" />
+      <module name="Recipes.Topics-Hierarchy_of_exceptions-UncheckedException.main" target="11" />
+      <module name="Recipes.Topics-Inheritance-Classes_for_Hospital.main" target="11" />
+      <module name="Recipes.Topics-Inheritance-Theory.main" target="11" />
+      <module name="Recipes.Topics-Instance_methods-Car.main" target="11" />
+      <module name="Recipes.Topics-Instance_methods-Circle.main" target="11" />
+      <module name="Recipes.Topics-Instance_methods-Complex_numbers.main" target="11" />
+      <module name="Recipes.Topics-Instance_methods-Counter.main" target="11" />
+      <module name="Recipes.Topics-Instance_methods-In_a_box.main" target="11" />
+      <module name="Recipes.Topics-Instance_methods-Patient_needs_a_doctor.main" target="11" />
+      <module name="Recipes.Topics-Instance_methods-Simulating_a_clock.main" target="11" />
+      <module name="Recipes.Topics-Instance_methods-Theory.main" target="11" />
+      <module name="Recipes.Topics-Integer_types_and_operations-Desks.main" target="11" />
+      <module name="Recipes.Topics-Integer_types_and_operations-Theory.main" target="11" />
+      <module name="Recipes.Topics-Interface-Area_of_a_circle.main" target="11" />
+      <module name="Recipes.Topics-Interface-Mutable_geometric_shapes.main" target="11" />
+      <module name="Recipes.Topics-Interface-Theory.main" target="11" />
+      <module name="Recipes.Topics-Introduction_to_generic_programming-Correct_the_program.main" target="11" />
+      <module name="Recipes.Topics-Introduction_to_generic_programming-Pastry_packing_optimization.main" target="11" />
+      <module name="Recipes.Topics-Introduction_to_generic_programming-Theory.main" target="11" />
+      <module name="Recipes.Topics-Lambda_expressions-Apply_function_to_all_elements.main" target="11" />
+      <module name="Recipes.Topics-Lambda_expressions-Creating_a_closure.main" target="11" />
+      <module name="Recipes.Topics-Lambda_expressions-Expression_closure.main" target="11" />
+      <module name="Recipes.Topics-Lambda_expressions-Expressions.main" target="11" />
+      <module name="Recipes.Topics-Lambda_expressions-Higher-order_functions.main" target="11" />
+      <module name="Recipes.Topics-Lambda_expressions-Max_of_two_integers.main" target="11" />
+      <module name="Recipes.Topics-Lambda_expressions-Next_even_number.main" target="11" />
+      <module name="Recipes.Topics-Lambda_expressions-Production_of_all_numbers_in_the_range.main" target="11" />
+      <module name="Recipes.Topics-Lambda_expressions-Statements.main" target="11" />
+      <module name="Recipes.Topics-Lambda_expressions-Theory.main" target="11" />
+      <module name="Recipes.Topics-LocalDate-10_days_before.main" target="11" />
+      <module name="Recipes.Topics-LocalDate-2_weeks_after.main" target="11" />
+      <module name="Recipes.Topics-LocalDate-Methods_of_LocalDate.main" target="11" />
+      <module name="Recipes.Topics-LocalDate-Theory.main" target="11" />
+      <module name="Recipes.Topics-Multiple_constructors-Employee.main" target="11" />
+      <module name="Recipes.Topics-Multiple_constructors-Movie.main" target="11" />
+      <module name="Recipes.Topics-Multiple_constructors-Phone.main" target="11" />
+      <module name="Recipes.Topics-Multiple_constructors-Theory.main" target="11" />
+      <module name="Recipes.Topics-Multiple_constructors-Time.main" target="11" />
+      <module name="Recipes.Topics-Optional-A_suitable_method.main" target="11" />
+      <module name="Recipes.Topics-Optional-Avoiding_exceptions.main" target="11" />
+      <module name="Recipes.Topics-Optional-Check_an_Optional_value.main" target="11" />
+      <module name="Recipes.Topics-Optional-Create_an_Optional_value.main" target="11" />
+      <module name="Recipes.Topics-Optional-Sum_up_optional_values.main" target="11" />
+      <module name="Recipes.Topics-Optional-The_address_book.main" target="11" />
+      <module name="Recipes.Topics-Optional-Theory.main" target="11" />
+      <module name="Recipes.Topics-Optional-What_is_Optional_.main" target="11" />
+      <module name="Recipes.Topics-Package-Binary_search.main" target="11" />
+      <module name="Recipes.Topics-Package-Theory.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items-build-classes-java.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items-build-generated-sources-headers-java.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items-build-reports-tests.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items-build-test-results.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items-build-tmp.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Deleting_items.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Return_query_parameter.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-classes-java.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-generated-sources-headers-java.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-reports-tests.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-test-results.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names-build-tmp.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Storing_user_names.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Theory.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator-build-classes-java.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator-build-generated-sources-headers-java.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator-build-reports-tests.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator-build-test-results.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator-build-tmp.main" target="11" />
+      <module name="Recipes.Topics-Posting_and_deleting_data_via_REST-Web_calculator.main" target="11" />
+      <module name="Recipes.Topics-Regexes_in_programs-Card_name_validation_and_identification.main" target="11" />
+      <module name="Recipes.Topics-Regexes_in_programs-Check_IP_address.main" target="11" />
+      <module name="Recipes.Topics-Regexes_in_programs-Check_the_clock_time.main" target="11" />
+      <module name="Recipes.Topics-Regexes_in_programs-Check_the_date.main" target="11" />
+      <module name="Recipes.Topics-Regexes_in_programs-E-mail_address.main" target="11" />
+      <module name="Recipes.Topics-Regexes_in_programs-Illegal_identifiers.main" target="11" />
+      <module name="Recipes.Topics-Regexes_in_programs-Safe_password.main" target="11" />
+      <module name="Recipes.Topics-Regexes_in_programs-Theory.main" target="11" />
+      <module name="Recipes.Topics-Regexes_in_programs-Vehicle_registration_number.main" target="11" />
+      <module name="Recipes.Topics-Standard_functional_interfaces-Package_java.util.function.main" target="11" />
+      <module name="Recipes.Topics-Standard_functional_interfaces-Select_suitable_interfaces.main" target="11" />
+      <module name="Recipes.Topics-Standard_functional_interfaces-Ternary_operator.main" target="11" />
+      <module name="Recipes.Topics-Standard_functional_interfaces-Theory.main" target="11" />
+      <module name="Recipes.Topics-The_Collections_Framework_overview-Blacklist.main" target="11" />
+      <module name="Recipes.Topics-The_Collections_Framework_overview-Squares_list.main" target="11" />
+      <module name="Recipes.Topics-The_Collections_Framework_overview-Theory.main" target="11" />
+      <module name="Recipes.Topics-The_List_interface-Backward_indexes.main" target="11" />
+      <module name="Recipes.Topics-The_List_interface-Companies.main" target="11" />
+      <module name="Recipes.Topics-The_List_interface-Count_the_value_occurrences.main" target="11" />
+      <module name="Recipes.Topics-The_List_interface-Greek_letters.main" target="11" />
+      <module name="Recipes.Topics-The_List_interface-Split_a_list_into_sublists.main" target="11" />
+      <module name="Recipes.Topics-The_List_interface-The_longest_string_in_the_list.main" target="11" />
+      <module name="Recipes.Topics-The_List_interface-Theory.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-Basics_of_Maps.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-Counting_words.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-Creating_a_map.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-Determine_values_of_variables.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-Displaying_pairs.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-Existing_implementations.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-Getting_submaps.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-Kidnapper_of_Ice_cream.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-Modifying_a_map.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-Sherlock_Holmes_and_removing_of_characters.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-Sherlock_Holmes_and_the_mystery_of_anagrams.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-The_property_of_TreeMap.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-Theory.main" target="11" />
+      <module name="Recipes.Topics-The_Map_interface-Tricky_sub-maps.main" target="11" />
+      <module name="Recipes.Topics-The_Set_interface-Creating_a_set.main" target="11" />
+      <module name="Recipes.Topics-The_Set_interface-Output_elements.main" target="11" />
+      <module name="Recipes.Topics-The_Set_interface-Removing_elements.main" target="11" />
+      <module name="Recipes.Topics-The_Set_interface-Spell_checker.main" target="11" />
+      <module name="Recipes.Topics-The_Set_interface-Strict_superset.main" target="11" />
+      <module name="Recipes.Topics-The_Set_interface-Symmetric_difference.main" target="11" />
+      <module name="Recipes.Topics-The_Set_interface-Theory.main" target="11" />
+      <module name="Recipes.Topics-Thread_management-Calculate_the_number_of_distinct_characters.main" target="11" />
+      <module name="Recipes.Topics-Thread_management-Ordering_the_execution_of_threads.main" target="11" />
+      <module name="Recipes.Topics-Thread_management-Theory.main" target="11" />
+      <module name="Recipes.Topics-Thread_management-VeganPizza.main" target="11" />
+      <module name="Recipes.Topics-Thread_synchronization-Countdown_counter.main" target="11" />
+      <module name="Recipes.Topics-Thread_synchronization-Multithreaded_counter.main" target="11" />
+      <module name="Recipes.Topics-Thread_synchronization-Theory.main" target="11" />
+      <module name="Recipes.Topics-toString__-Theory.main" target="11" />
+      <module name="Recipes.Topics-toString__-Users_as_strings.main" target="11" />
+      <module name="Recipes.util.main" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,64 @@
+# Project exclude paths
+/.gradle/
+/Recipes/task/build/
+/Recipes/task/out/
+/Recipes/task/out/production/classes/
+/Topics/ArrayList/Concat positive numbers/out/
+/Topics/ArrayList/Concat positive numbers/out/production/classes/
+/Topics/Builder/Geek Builder/out/
+/Topics/Builder/Geek Builder/out/production/classes/
+/Topics/Custom threads/Multiple threads/out/
+/Topics/Custom threads/Multiple threads/out/production/classes/
+/Topics/Custom threads/String processor/out/
+/Topics/Custom threads/String processor/out/production/classes/
+/Topics/Exception handling/Four status codes/build/
+/Topics/Exception handling/Implement DELETE endpoint/build/
+/Topics/Generics and Object/Boxes are not just objects_/out/
+/Topics/Generics and Object/Boxes are not just objects_/out/production/classes/
+/Topics/Handling requests with bodies/Important message/build/
+/Topics/Handling requests with bodies/Receiving and returning products/build/
+/Topics/HashMap/Remove long names/out/
+/Topics/HashMap/Remove long names/out/production/classes/
+/Topics/HashMap/The same pairs/out/
+/Topics/HashMap/The same pairs/out/production/classes/
+/Topics/Inheritance/Classes for Hospital/out/
+/Topics/Inheritance/Classes for Hospital/out/production/classes/
+/Topics/Instance methods/Simulating a clock/out/
+/Topics/Instance methods/Simulating a clock/out/production/classes/
+/Topics/Integer types and operations/Desks/out/
+/Topics/Integer types and operations/Desks/out/production/classes/
+/Topics/Interface/Area of a circle/out/
+/Topics/Interface/Area of a circle/out/production/classes/
+/Topics/Introduction to generic programming/Pastry packing optimization/out/
+/Topics/Introduction to generic programming/Pastry packing optimization/out/production/classes/
+/Topics/Lambda expressions/Production of all numbers in the range/out/
+/Topics/Lambda expressions/Production of all numbers in the range/out/production/classes/
+/Topics/LocalDate/10 days before/out/
+/Topics/LocalDate/10 days before/out/production/classes/
+/Topics/Optional/Check an Optional value/out/
+/Topics/Optional/Check an Optional value/out/production/classes/
+/Topics/Optional/Create an Optional value/out/
+/Topics/Optional/Create an Optional value/out/production/classes/
+/Topics/Optional/Sum up optional values/out/
+/Topics/Optional/Sum up optional values/out/production/classes/
+/Topics/Optional/The address book/out/
+/Topics/Optional/The address book/out/production/classes/
+/Topics/Posting and deleting data via REST/Deleting items/build/
+/Topics/Posting and deleting data via REST/Storing user names/build/
+/Topics/Posting and deleting data via REST/Web calculator/build/
+/Topics/The Collections Framework overview/Squares list/out/
+/Topics/The Collections Framework overview/Squares list/out/production/classes/
+/Topics/The List interface/Companies/out/
+/Topics/The List interface/Companies/out/production/classes/
+/Topics/The Map interface/Sherlock Holmes and removing of characters/out/
+/Topics/The Map interface/Sherlock Holmes and removing of characters/out/production/classes/
+/Topics/The Map interface/Tricky sub-maps/out/
+/Topics/The Map interface/Tricky sub-maps/out/production/classes/
+/Topics/The Set interface/Spell checker/out/
+/Topics/The Set interface/Spell checker/out/production/classes/
+/Topics/The Set interface/Symmetric difference/out/
+/Topics/The Set interface/Symmetric difference/out/production/classes/
+/Topics/Thread management/Ordering the execution of threads/out/
+/Topics/Thread management/Ordering the execution of threads/out/production/classes/
+/Topics/Thread management/VeganPizza/out/
+/Topics/Thread management/VeganPizza/out/production/classes/

@@ -1,0 +1,25 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Clock {
+
+        int hours = 12;
+        int minutes = 0;
+
+        void next() {
+            // implement me
+        }
+    }
+  learner_created: false
+- name: src/Task.java
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/2989#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 7. Wrong answer
+  time: Sun, 12 Dec 2021 20:49:28 UTC
+record: -1

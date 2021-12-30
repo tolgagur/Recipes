@@ -1,0 +1,28 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class BinarySearch {
+        /**
+         * @param nums ordered sequence of integers
+         * @param key  an element for searching
+         * @return index of key or a negative value
+         */
+        public static int callBinarySearch(int[] nums, int key) {
+            // write your code here
+        }
+    }
+  learner_created: false
+- name: src/a/a.java
+  visible: true
+  learner_created: true
+- name: src/b/b.java
+  visible: true
+  learner_created: true
+- name: src/Task.java
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/2253#comment
+status: Failed
+record: -1

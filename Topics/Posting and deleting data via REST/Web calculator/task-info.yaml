@@ -1,0 +1,244 @@
+type: edu
+files:
+- name: resources/application.properties
+  visible: false
+  text: |-
+    server.port=8889
+    management.endpoints.web.exposure.include=*
+    management.endpoint.shutdown.enabled=true
+  learner_created: false
+- name: build.gradle
+  visible: false
+  text: |
+    plugins {
+        id 'java'
+        id 'org.springframework.boot' version '2.3.1.RELEASE'
+        id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+    }
+
+    repositories {
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+    }
+
+    sourceSets.main.resources.srcDirs = ["resources"]
+
+    dependencies {
+        implementation 'org.springframework.boot:spring-boot-starter'
+        implementation 'org.springframework.boot:spring-boot-starter-actuator'
+        implementation 'org.springframework.boot:spring-boot-starter-web'
+    }
+  learner_created: false
+- name: test/WebCalculatorApplicationTest.java
+  visible: false
+  text: |-
+    import calculator.WebCalculatorApplication;
+    import org.hyperskill.hstest.dynamic.input.DynamicTesting;
+    import org.hyperskill.hstest.dynamic.input.DynamicTestingMethod;
+    import org.hyperskill.hstest.stage.SpringTest;
+    import org.hyperskill.hstest.testcase.CheckResult;
+
+    import java.util.List;
+
+    public class WebCalculatorApplicationTest extends SpringTest {
+
+        public WebCalculatorApplicationTest() {
+            super(WebCalculatorApplication.class, 8889);
+        }
+
+        @DynamicTestingMethod
+        DynamicTesting[] dt = new DynamicTesting[] {
+                this::testAddNumbers,
+                this::testSubtractNumbers,
+                this::testMultNumbers,
+                this::testUnknownOperation,
+        };
+
+        private List<List<Integer>> dataProvider = List.of(
+                List.of(20, 5),
+                List.of(100, 10),
+                List.of(0, 2),
+                List.of(-15, 3),
+                List.of(-20, -10)
+        );
+
+        private CheckResult testAddNumbers() {
+            for (var pair : dataProvider) {
+                var response = get("/add")
+                        .addParam("a", String.valueOf(pair.get(0)))
+                        .addParam("b", String.valueOf(pair.get(1)))
+                        .send();
+
+                if (response.getStatusCode() != 200) {
+                    return CheckResult.wrong("GET /add should respond with " +
+                            "status code 200, responded: " + response.getStatusCode() + "\n\n" +
+                            "Response body:\n" + response.getContent());
+                }
+
+
+                int result;
+                try {
+                    result = Integer.parseInt(response.getContent());
+                } catch (NumberFormatException e) {
+                    return CheckResult.wrong("Your program didn't output a number");
+                }
+
+                if (result != pair.get(0) + pair.get(1)) {
+                    return CheckResult.wrong("Wrong result of adding numbers");
+                }
+            }
+
+            return CheckResult.correct();
+        }
+
+        private CheckResult testSubtractNumbers() {
+            for (var pair : dataProvider) {
+                var response = get("/subtract")
+                        .addParam("a", String.valueOf(pair.get(0)))
+                        .addParam("b", String.valueOf(pair.get(1)))
+                        .send();
+
+                if (response.getStatusCode() != 200) {
+                    return CheckResult.wrong("GET /subtract should respond with " +
+                            "status code 200, responded: " + response.getStatusCode() + "\n\n" +
+                            "Response body:\n" + response.getContent());
+                }
+
+                int result;
+                try {
+                    result = Integer.parseInt(response.getContent());
+                } catch (NumberFormatException e) {
+                    return CheckResult.wrong("Your program didn't output a number");
+                }
+
+                if (result != pair.get(0) - pair.get(1)) {
+                    return CheckResult.wrong("Wrong result of subtracting numbers");
+                }
+            }
+
+            return CheckResult.correct();
+        }
+
+        private CheckResult testMultNumbers() {
+            for (var pair : dataProvider) {
+                var response = get("/mult")
+                        .addParam("a", String.valueOf(pair.get(0)))
+                        .addParam("b", String.valueOf(pair.get(1)))
+                        .send();
+
+                if (response.getStatusCode() != 200) {
+                    return CheckResult.wrong("GET /mult should respond with " +
+                            "status code 200, responded: " + response.getStatusCode() + "\n\n" +
+                            "Response body:\n" + response.getContent());
+                }
+
+                int result;
+                try {
+                    result = Integer.parseInt(response.getContent());
+                } catch (NumberFormatException e) {
+                    return CheckResult.wrong("Your program didn't output a number");
+                }
+
+                if (result != pair.get(0) * pair.get(1)) {
+                    return CheckResult.wrong("Wrong result of multiplying numbers");
+                }
+            }
+
+            return CheckResult.correct();
+        }
+
+        private CheckResult testUnknownOperation() {
+            var operations = List.of("/divide", "/ad", "/q");
+            final var expectedResult = "Unknown operation";
+
+            for (var operation : operations) {
+                var response = get(operation)
+                        .addParam("a", "1")
+                        .addParam("b", "2")
+                        .send();
+
+                if (response.getStatusCode() != 200) {
+                    return CheckResult.wrong("GET /divide should respond with " +
+                            "status code 200, responded: " + response.getStatusCode() + "\n\n" +
+                            "Response body:\n" + response.getContent());
+                }
+
+                if (!response.getContent().equalsIgnoreCase(expectedResult)) {
+                    return CheckResult.wrong("Wrong result of multiplying numbers");
+                }
+            }
+
+            return CheckResult.correct();
+        }
+    }
+  learner_created: false
+- name: src/calculator/ArithmeticRestController.java
+  visible: true
+  text: |-
+    package calculator;
+
+    import org.springframework.web.bind.annotation.*;
+
+    class ArithmeticRestController {
+        public String calculate(String operation, int a, int b) {
+            return "Unknown operation";
+        }
+    }
+  learner_created: false
+- name: src/calculator/WebCalculatorApplication.java
+  visible: false
+  text: |-
+    package calculator;
+
+    import org.springframework.boot.SpringApplication;
+    import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
+    @SpringBootApplication
+    public class WebCalculatorApplication {
+
+        public static void main(String[] args) {
+            SpringApplication.run(WebCalculatorApplication.class, args);
+        }
+
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10960#comment
+status: Failed
+feedback:
+  message: |-
+    Wrong answer in test #1
+
+    GET /add should respond with status code 200, responded: 404
+
+    Response body:
+    {&quot;timestamp&quot;:&quot;2021-12-15T17:26:57.257+00:00&quot;,&quot;status&quot;:404,&quot;error&quot;:&quot;Not Found&quot;,&quot;message&quot;:&quot;&quot;,&quot;path&quot;:&quot;/add&quot;}
+
+    Please find below the output of your program during this failed test.
+
+    ---
+
+    .   ____          _            __ _ _
+     /\\ / ___&#39;_ __ _ _(_)_ __  __ _ \ \ \ \
+    ( ( )\___ | &#39;_ | &#39;_| | &#39;_ \/ _` | \ \ \ \
+     \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+      &#39;  |____| .__|_| |_|_| |_\__, | / / / /
+     =========|_|==============|___/=/_/_/_/
+     :: Spring Boot ::        (v2.3.1.RELEASE)
+
+    2021-12-15 20:26:48.909  INFO 13870 --- [    Test worker] calculator.WebCalculatorApplication      : Starting WebCalculatorApplication on aglot with PID 13870 (started by aglot in /home/aglot/IdeaProjects/Recipes/Topics/Posting and deleting data via REST/Web calculator)
+    2021-12-15 20:26:48.917  INFO 13870 --- [    Test worker] calculator.WebCalculatorApplication      : No active profile set, falling back to default profiles: default
+    2021-12-15 20:26:52.513  INFO 13870 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+    2021-12-15 20:26:52.582  INFO 13870 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+    2021-12-15 20:26:52.585  INFO 13870 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+    2021-12-15 20:26:52.784  INFO 13870 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+    2021-12-15 20:26:52.785  INFO 13870 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3764 ms
+    2021-12-15 20:26:53.566  INFO 13870 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService &#39;applicationTaskExecutor&#39;
+    2021-12-15 20:26:54.684  INFO 13870 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path &#39;/actuator&#39;
+    2021-12-15 20:26:54.850  INFO 13870 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path &#39;&#39;
+    2021-12-15 20:26:54.882  INFO 13870 --- [    Test worker] calculator.WebCalculatorApplication      : Started WebCalculatorApplication in 7.057 seconds (JVM running for 9.072)
+    2021-12-15 20:26:57.048  INFO 13870 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet &#39;dispatcherServlet&#39;
+    2021-12-15 20:26:57.059  INFO 13870 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet &#39;dispatcherServlet&#39;
+    2021-12-15 20:26:57.080  INFO 13870 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+  time: Wed, 15 Dec 2021 17:26:59 UTC
+record: -1

@@ -1,0 +1,36 @@
+content:
+- Defining classes
+- Constructor
+- Instance methods
+- Multiple constructors
+- Integer types and operations
+- Interface
+- Custom threads
+- Package
+- Getters and setters
+- Inheritance
+- toString()
+- Hierarchy of exceptions
+- Exception handling
+- Thread management
+- Thread synchronization
+- Introduction to generic programming
+- Generics and Object
+- ArrayList
+- The Collections Framework overview
+- The List interface
+- Getting data from REST
+- Posting and deleting data via REST
+- Handling requests with bodies
+- The Set interface
+- The Map interface
+- HashMap
+- Regexes in programs
+- Default methods
+- Anonymous classes
+- Lambda expressions
+- Standard functional interfaces
+- Optional
+- LocalDate
+- Builder
+- Abstract class
