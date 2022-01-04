@@ -9,7 +9,7 @@ import recipes.repository.UserRepository;
 import recipes.security.UserDetailsImpl;
 
 
-import recipes.user.User;
+import recipes.dto.user.User;
 
 import java.util.Optional;
 

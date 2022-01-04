@@ -5,7 +5,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 import recipes.repository.UserRepository;
-import recipes.user.User;
+import recipes.dto.user.User;
 
 import java.util.Optional;
 

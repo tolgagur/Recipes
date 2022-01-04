@@ -2,7 +2,7 @@ package recipes.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import recipes.user.User;
+import recipes.dto.user.User;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;

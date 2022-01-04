@@ -805,57 +805,6 @@ files:
 - name: src/recipes/RecipesApplication.java
   visible: true
   learner_created: true
-- name: src/recipes/bean/Recipe.java
-  visible: true
-  learner_created: true
-- name: src/recipes/bean/User.java
-  visible: true
-  learner_created: true
-- name: src/recipes/exception/IllegalRecipeParameterException.java
-  visible: true
-  learner_created: true
-- name: src/recipes/exception/IllegalRequestException.java
-  visible: true
-  learner_created: true
-- name: src/recipes/exception/IllegalUserCredentialException.java
-  visible: true
-  learner_created: true
-- name: src/recipes/exception/RecipeNotFoundException.java
-  visible: true
-  learner_created: true
-- name: src/recipes/exception/UserNotFoundException.java
-  visible: true
-  learner_created: true
-- name: src/recipes/repository/RecipeRepository.java
-  visible: true
-  learner_created: true
-- name: src/recipes/service/RecipeService.java
-  visible: true
-  learner_created: true
-- name: src/recipes/RecipeNotFoundException.java
-  visible: true
-  learner_created: true
-- name: src/recipes/RecipeRepository.java
-  visible: true
-  learner_created: true
-- name: src/recipes/Ingredients.java
-  visible: true
-  learner_created: true
-- name: src/recipes/RepiceService.java
-  visible: true
-  learner_created: true
-- name: src/recipes/RepiceController.java
-  visible: true
-  learner_created: true
-- name: src/recipes/Recipe.java
-  visible: true
-  learner_created: true
-- name: src/recipes/Directions.java
-  visible: true
-  learner_created: true
-- name: src/recipes/user/User.java
-  visible: true
-  learner_created: true
 - name: src/recipes/repository/UserRepository.java
   visible: true
   learner_created: true
@@ -869,6 +818,24 @@ files:
   visible: true
   learner_created: true
 - name: src/recipes/security/WebSecurityConfig.java
+  visible: true
+  learner_created: true
+- name: src/recipes/repository/RecipeRepository.java
+  visible: true
+  learner_created: true
+- name: src/recipes/service/RepiceService.java
+  visible: true
+  learner_created: true
+- name: src/recipes/controller/RepiceController.java
+  visible: true
+  learner_created: true
+- name: src/recipes/exception/RecipeNotFoundException.java
+  visible: true
+  learner_created: true
+- name: src/recipes/dto/Recipe.java
+  visible: true
+  learner_created: true
+- name: src/recipes/dto/user/User.java
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/learn/step/13092#comment

@@ -1,4 +1,4 @@
-package recipes;
+package recipes.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -6,8 +6,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
+import recipes.dto.Recipe;
+import recipes.repository.RecipeRepository;
 import recipes.service.AuthenticationService;
-import recipes.user.User;
+import recipes.service.RepiceService;
+import recipes.dto.user.User;
 
 import javax.validation.Valid;
 import java.security.Principal;

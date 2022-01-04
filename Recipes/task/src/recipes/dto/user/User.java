@@ -1,10 +1,10 @@
-package recipes.user;
+package recipes.dto.user;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonProperty.Access;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import recipes.Recipe;
+import recipes.dto.Recipe;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
@@ -15,7 +15,6 @@ import java.util.Set;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity
 public class User {
 
     @Id
